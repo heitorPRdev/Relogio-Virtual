@@ -6,14 +6,14 @@ const minuto = horario.getMinutes()
 if (hora >= 12 && hora <= 17){
     area_muda.innerHTML = `${hora}:${minuto}`;
     var img = document.createElement('IMG')
-    img.src = "sol_demanha.png"
+    img.src = "sol.png"
     document.getElementById('imagens').appendChild(img);
     document.body.style.backgroundColor = 'lightblue'
 }
 else if(hora >= 6 && hora <= 11){
     area_muda.innerHTML = `${hora}:${minuto}`;
     var img = document.createElement('IMG')
-    img.src = "sol.png"
+    img.src = "sol_demanha.png"
     document.getElementById('imagens').appendChild(img);
     document.body.style.backgroundColor = '#c48f2e'
 }
