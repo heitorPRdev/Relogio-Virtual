@@ -8,14 +8,14 @@ if (hora >= 12 && hora <= 17){
     var img = document.createElement('IMG')
     img.src = "sol.png"
     document.getElementById('imagens').appendChild(img);
-    document.body.style.backgroundColor = 'lightblue'
+    document.body.style.backgroundColor = '#c48f2e'
 }
 else if(hora >= 6 && hora <= 11){
     area_muda.innerHTML = `${hora}:${minuto}`;
     var img = document.createElement('IMG')
     img.src = "sol_demanha.png"
     document.getElementById('imagens').appendChild(img);
-    document.body.style.backgroundColor = '#c48f2e'
+    document.body.style.backgroundColor = 'lightblue'
 }
 else{
     area_muda.innerHTML = `${hora}:${minuto}`;
